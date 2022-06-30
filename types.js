@@ -1,4 +1,6 @@
 "use strict";
+//There are more types in typescript, that are not in this document.
+//https://www.typescriptlang.org/docs/handbook/basic-types.html
 //Example of types1 (TypeScript allows us statically define types)
 let vehicle; //will always be a string
 let engine; //will always be a number

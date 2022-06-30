@@ -1,3 +1,5 @@
+//There are more types in typescript, that are not in this document.
+//https://www.typescriptlang.org/docs/handbook/basic-types.html
 
 //Example of types1 (TypeScript allows us statically define types)
 let vehicle: string; //will always be a string
@@ -5,6 +7,7 @@ let engine: number; //will always be a number
 let isFast: boolean; //will always be a boolean
 let anyData1: any //will accept any type since we did not define a type
 let anyData2; //will accept any type since we did not define a type
+
 
 //WILL work types1
 vehicle = 'car'; //string
