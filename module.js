@@ -1,4 +1,5 @@
 "use strict";
+//internal module
 var myNameSpace;
 (function (myNameSpace) {
     myNameSpace.name = "John Doe"; // export keyword is used to export the variable name, else it will not work in namespace

@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <title>Title</title>
 
-    <script src="namespace.js"></script>
-
+  <script src="node_modules/systemjs/dist/system.js"></script> 
 
 </head>
 <body>
 <script>
-    var myNameSpace = (function(){
-        return {
-            displayData: function(){
-                console.log("Hello this is is my space!");
-            }
-        }
-    })();
-    myNameSpace.displayData();
+
+
+SystemJS.config({
+
+baseURL: '/',
+packages: {
+
+    '/': {
+
+        defaultExtension: 'js'
+
+    }
+
+}
+
+
+});
+
+SystemJS.import('app.js');
+
+
+
+
+
 </script>
 
 
